@@ -26,14 +26,5 @@ public class Encrypt {
 			returnArray[i] = fileList.get(i);
 		}
 		return returnArray;
-	}
-	public static byte[] decrypt(ArrayList<Byte> allBytes, Key test) {
-				
-		byte[] returnArray = new byte[1];
-		return returnArray ;
-	}
-	
-	
-	
-	
+	}	
 }
